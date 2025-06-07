@@ -24,7 +24,7 @@ const projects = [
     title: "Student event management",
     description: "A student club and event managing platform to manage clubs and their events according to venue and managing students enrollment using template engine and postgreSQL",
     image: "/projects/project3.png",
-    tags: ["handlebars", "node.js", "express", "postgreSQL"],
+    tags: ["Embedded Javascript", "node.js", "express", "postgreSQL"],
     demoUrl: "#",
     githubUrl: "#"
   },
@@ -72,8 +72,8 @@ export const ProjectSection = () => {
         ))}
       </div>
       <div className="text-center mt-12">
-        <a href="https://github.com/parmeshkumarT" target="_blank"className="cosmic-button w-fit flex items-center mx-auto">
-          check my Github <ArrowRight size={16}/>
+        <a href="https://github.com/parmeshkumarT" target="_blank" className="cosmic-button w-fit flex items-center mx-auto">
+          check my Github <ArrowRight size={16} />
         </a>
       </div>
     </div>

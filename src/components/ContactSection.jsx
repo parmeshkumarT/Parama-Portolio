@@ -1,16 +1,32 @@
 import { Instagram, Linkedin, Mail, MailIcon, MapPin, Phone, Send } from "lucide-react"
 import { cn } from "../lib/utils"
+import * as emailjs from "emailjs-com";
+import { useState } from "react"
 
 
 export const ContactSection = () => {
 
-        const handleSubmit =(e)=>{
-            e.preventDefault();
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+    });
 
-            setTimeout(()=>{
-                
-            },1500)
-        }
+    const SERVICE_ID = "service_r3mrsvm";
+    const TEMPLATE_ID = "template_lylztzs";
+    const PUBLIC_KEY = "feTIUDiKkl2ED3MB_"
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
+            .then((reult) => {
+                alert("message sent");
+                setFormData({ name: "", email: "", message: "" })
+            })
+            .catch(() => alert("OOPS something went wrong"));
+
+
+    }
     return <section id="contacts" className="py-24 px-4 relative bg-secondary/30">
         <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Get In <span className="text-primary">Touch</span>
@@ -76,29 +92,27 @@ export const ContactSection = () => {
                 <div className="bg-card p-8 rounded=lg shadow-xs">
                     <h3 className="text-2xl font-semibold mb-6">Send a message</h3>
 
-                    <form className="space-y-6" action="">
+                    <form className="space-y-6" onSubmit={handleSubmit}>
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">Your Name</label>
                             <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-md border border-input bg-baclground focus:outline-hidden focus:ring-2 focus:ring-primary"
-                                placeholder="enter your name" />
+                                placeholder="enter your name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
                         </div>
 
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium mb-2">Your Email</label>
                             <input type="email" id="email" name="email" required className="w-full px-4 py-3 rounded-md border border-input bg-baclground focus:outline-hidden focus:ring-2 focus:ring-primary"
-                                placeholder="enter your Email" />
+                                placeholder="enter your Email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
                         </div>
 
-                       <div>
+                        <div>
                             <label htmlFor="message" className="block text-sm font-medium mb-2">Your Message</label>
-                            <textarea  id="message" name="message" required className="w-full px-4 py-3 rounded-md border border-input bg-baclground focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
-                                placeholder="type your message" />
+                            <textarea id="message" name="message" required className="w-full px-4 py-3 rounded-md border border-input bg-baclground focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
+                                placeholder="type your message" value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} />
                         </div>
-                        <button type="submit" className={cn("cosmic-button w-full flex items-center justify-center gap-2",
-
-                        )}>
+                        <button className={cn("cosmic-button w-full flex items-center justify-center gap-2",)}>
                             Send Message
-                        <Send size={16}/>
+                            <Send size={16} />
                         </button>
                     </form>
                 </div>
