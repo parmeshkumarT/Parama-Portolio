@@ -17,7 +17,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["react", "tailwindcss"],
     demoUrl: "#",
-    githubUrl: "#"
+    githubUrl: "https://github.com/parmeshkumarT/Parama-Portolio"
   },
   {
     id: 1,
