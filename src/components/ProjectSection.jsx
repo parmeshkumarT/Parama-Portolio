@@ -16,19 +16,9 @@ const projects = [
     description: "A personal Portfolio showing my excellence in the field and my projects developed using react,tailwindcss,node.js,express and MongoDB",
     image: "/projects/project2.png",
     tags: ["react", "tailwindcss"],
-    demoUrl: "#",
+    demoUrl: "https://tripcrafters-hotel-booking-website-03.onrender.com",
     githubUrl: "https://github.com/parmeshkumarT/Parama-Portolio"
   },
-  {
-    id: 1,
-    title: "Student event management",
-    description: "A student club and event managing platform to manage clubs and their events according to venue and managing students enrollment using template engine and postgreSQL",
-    image: "/projects/project3.png",
-    tags: ["Embedded Javascript", "node.js", "express", "postgreSQL"],
-    demoUrl: "#",
-    githubUrl: "#"
-  },
-
 ]
 
 export const ProjectSection = () => {
