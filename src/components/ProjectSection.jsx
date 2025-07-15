@@ -7,7 +7,7 @@ const projects = [
     description: "A booking platform to book and also provide the users own accomodation using MERN stack",
     image: "/projects/project1.png",
     tags: ["react", "node.js", "express", "MongoDB"],
-    demoUrl: "#",
+    demoUrl: "https://tripcrafters-hotel-booking-website-03.onrender.com",
     githubUrl: "https://github.com/Devadharsan2006/FST-Project/tree/master"
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     description: "A personal Portfolio showing my excellence in the field and my projects developed using react,tailwindcss,node.js,express and MongoDB",
     image: "/projects/project2.png",
     tags: ["react", "tailwindcss"],
-    demoUrl: "https://tripcrafters-hotel-booking-website-03.onrender.com",
+    demoUrl: "#",
     githubUrl: "https://github.com/parmeshkumarT/Parama-Portolio"
   },
 ]
