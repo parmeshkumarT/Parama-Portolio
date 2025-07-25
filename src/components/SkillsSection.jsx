@@ -16,12 +16,13 @@ const skills = [
 
     //Databases
     { name: "MongoDB", level: 90, category: "databases" },
-    { name: "PostgreSQL", level: 80, category: "databases" },
+    { name: "Oracle", level: 80, category: "databases" },
 
 
     { name: "c++", level: 90, category: "programming language" },
     { name: "Javascript", level: 80, category: "programming language" },
     { name: "C", level: 85, category: "programming language" },
+    { name: "Java", level: 65, category: "programming language" },
 
 ]
 const categories = ["all", "frontend", "backend", "databases", "programming language"];
