@@ -6,7 +6,7 @@ const projects = [
     title: "Hotel booking management",
     description: "A booking platform to book and also provide the users own accomodation using MERN stack",
     image: "/projects/project1.png",
-    tags: ["react", "node.js", "express", "MongoDB"],
+    tags: ["react", "node.js", "express", "MongoDB","tailwindcss"],
     demoUrl: "https://tripcrafters-hotel-booking-website-03.onrender.com",
     githubUrl: "https://github.com/Devadharsan2006/TripCrafters-Hotel-Booking-Website"
   },
