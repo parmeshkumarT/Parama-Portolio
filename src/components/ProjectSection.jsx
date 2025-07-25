@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["react", "node.js", "express", "MongoDB"],
     demoUrl: "https://tripcrafters-hotel-booking-website-03.onrender.com",
-    githubUrl: "https://github.com/Devadharsan2006/FST-Project/tree/master"
+    githubUrl: "https://github.com/Devadharsan2006/TripCrafters-Hotel-Booking-Website"
   },
   {
     id: 1,
