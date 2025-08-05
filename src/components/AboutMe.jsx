@@ -11,16 +11,13 @@ export const AboutMe = () => {
                     <div className="space-y-6 ">
                         <h3 className="text-2xl font-semibold">passionate web developer and keen interest on Database Management Systems concepts</h3>
                         <p className="text-muted-foreground">
-                            i have a passionate interest in creating front-end applications
-                            and single page web applications using react and also currently
-                            gaining knowledge on the utility first styling tailwindcss by
-                            exploring may of the inbuitl and also creating custom utility classes.
+                            I'm currently pursuing my B.E. in Computer Science at CEG, Anna University.
+                            I recently completed the Colt Steele Web Developer Bootcamp, gaining hands-on experience in HTML, CSS, JavaScript, Node.js, and the MERN stack. 
+                            I enjoy debugging backend systems, refining UI/UX designs, and exploring FinTech solutions.
                         </p>
                         <p className="text-muted-foreground">
                             In Database Management Systems, I excel in the concepts of
                             normalization and Transaction management of relational databases
-                            I also explore on SQL queries using different function,procedures,
-                            triggers andf cursors
                         </p>
 
                         <div className="flex flex-col sm:flex-row pt-4 justify-center">
