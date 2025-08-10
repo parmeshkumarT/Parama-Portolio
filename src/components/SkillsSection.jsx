@@ -56,9 +56,6 @@ export const SkillsSection = () => {
                         <div className="text-left mb-4">
                             <h3 className="font-semibold text-lg">{skill.name}</h3>
                         </div>
-                        <div className="text-right mt-1">
-                            <span className="text-sm text-muted-foreground">{skill.level + "%"}</span>
-                        </div>
                     </div>
                 ))}
             </div>
