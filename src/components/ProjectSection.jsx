@@ -26,8 +26,8 @@ export const ProjectSection = () => {
     <div className="container mx-auto max-w-5xl">
       <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Featured <span className="text-primary">Projects</span></h2>
       <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-        these are the projects that i have been working on the hotel management website was a team project
-        done by group of three including me, the other two projects were built completely by me.
+   This project was built entirely by me to automate compliance workflows for multi-vendor ODC environments.
+        It integrates OCR, AI validation, and secure document management while incorporating enterprise and banking concepts gained during my internship.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
