@@ -14,8 +14,8 @@ export const HeroSection = () => {
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Kumar</span>
                 </h1>
                 <p className="text-lg min:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                  A Computer Science student at CEG, Anna University, passionate about building modern web applications using the MERN stack. 
-                    I thrive on solving backend challenges and crafting responsive, user-friendly interfaces.
+                  I'm a Computer Science student at CEG, Anna University, focused on banking technology and full-stack development. 
+                    I enjoy building secure, scalable enterprise applications that deliver reliable and efficient digital financial solutions.
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
