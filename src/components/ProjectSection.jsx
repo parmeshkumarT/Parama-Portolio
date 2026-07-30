@@ -3,12 +3,10 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Hotel booking management",
-    description: "A booking platform to book and also provide the users own accomodation using MERN stack",
-    image: "/projects/project1.png",
-    tags: ["react", "node.js", "express", "MongoDB","tailwindcss"],
-    demoUrl: "https://tripcrafters-hotel-booking-website-03.onrender.com",
-    githubUrl: "https://github.com/Devadharsan2006/TripCrafters-Hotel-Booking-Website"
+    title: "ODC Risk Compliance & Certificate Renewal System",
+    description: "An AI-powered enterprise platform to automate certificate processing, compliance validation, and document management for multi-vendor ODC environments.",
+    image: ""D:\Parmesh\project images\ChatGPT Image Jul 30, 2026, 07_00_05 PM.png"",
+    tags: ["react", "Supabase", "PostgreSQL"],
   },
   {
     id: 1,
