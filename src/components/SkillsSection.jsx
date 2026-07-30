@@ -24,8 +24,7 @@ const skills = [
 
 
 ]
-const categories = ["all", "Domain Expertise", "Languages and Frameworks", "Languages and Frameworks", 
-                    "Methodologies"];
+const categories = ["all", "Domain Expertise", "Languages and Frameworks", "Methodologies"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
