@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "ODC Risk Compliance & Certificate Renewal System",
     description: "An AI-powered enterprise platform to automate certificate processing, compliance validation, and document management for multi-vendor ODC environments.",
-    image: "project/ChatGPT Image Jul 30, 2026, 07_00_05 PM.png",
+    image: "public/projects/ChatGPT Image Jul 30, 2026, 07_00_05 PM.png",
     tags: ["react", "Supabase", "PostgreSQL"]
   },
   {
