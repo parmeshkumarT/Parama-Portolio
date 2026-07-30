@@ -6,7 +6,7 @@ const projects = [
     title: "ODC Risk Compliance & Certificate Renewal System",
     description: "An AI-powered enterprise platform to automate certificate processing, compliance validation, and document management for multi-vendor ODC environments.",
     image: ""D:\Parmesh\project images\ChatGPT Image Jul 30, 2026, 07_00_05 PM.png"",
-    tags: ["react", "Supabase", "PostgreSQL"],
+    tags: ["react", "Supabase", "PostgreSQL"]
   },
   {
     id: 1,
@@ -16,7 +16,7 @@ const projects = [
     tags: ["react", "tailwindcss"],
     demoUrl: "#",
     githubUrl: "https://github.com/parmeshkumarT/Parama-Portolio"
-  },
+  }
 ]
 
 export const ProjectSection = () => {
