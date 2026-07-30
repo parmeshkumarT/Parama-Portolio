@@ -20,7 +20,7 @@ const skills = [
     { name: "Git/GitHub", level: 90, category: "Databases & Tools" },
     { name: "JIRA TOOL(Basic)", level: 90, category: "Databases & Tools" },
 
-    {name:"SDLC_AGILE",category:"Methodologies"}
+    {name:"SDLC-AGILE",category:"Methodologies"}
 
 
 ]
