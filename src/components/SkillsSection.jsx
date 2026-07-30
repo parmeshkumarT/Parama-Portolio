@@ -4,28 +4,28 @@ import { cn } from "../lib/utils";
 
 const skills = [
     //frontend
-    { name: "HTML/CSS", level: 90, category: "frontend" },
-    { name: "Embedded javascript", level: 85, category: "frontend" },
-    { name: "React.js", level: 95, category: "frontend" },
-    { name: "Tailwind CSS", level: 80, category: "frontend" },
-
-    //backend
-    { name: "node.js", level: 70, category: "backend" },
-    { name: "Express", level: 80, category: "backend" },
-    { name: "javascript", level: 75, category: "backend" },
+    { name: "Banking(Coorporate and Retail)", level: 90, category: "Domain Expertise" },
+    { name: "SWIFT MT & MX messages", level: 85, category: "Domain Expertise" },
+    { name: "Cards and Payments", level: 95, category: "Domain Expertise" },
 
     //Databases
-    { name: "MongoDB", level: 90, category: "databases" },
-    { name: "Oracle", level: 80, category: "databases" },
+    { name: "JAVA(OOPS)", level: 90, category: "Languages and Frameworks" },
+    { name: "C++", level: 80, category: "Languages and Frameworks" },
+    { name: "React.js", level: 80, category: "Languages and Frameworks" },
+    { name: "SUPABASE", level: 80, category: "Languages and Frameworks" },
+    { name: "SQL", level: 80, category: "Languages and Frameworks" },
 
 
-    { name: "c++", level: 90, category: "programming language" },
-    { name: "Javascript", level: 80, category: "programming language" },
-    { name: "C", level: 85, category: "programming language" },
-    { name: "Java", level: 65, category: "programming language" },
+    { name: "PostgreSQL(SUPABASE)", level: 90, category: "Languages and Frameworks" },
+    { name: "Git/GitHub", level: 90, category: "Databases & Tools" },
+    { name: "JIRA TOOL(Basic)", level: 90, category: "Databases & Tools" },
+
+    {name:"SDLC_AGILE",category:"Methodologies"}
+
 
 ]
-const categories = ["all", "frontend", "backend", "databases", "programming language"];
+const categories = ["all", "Domain Expertise", "Languages and Frameworks", "Languages and Frameworks", 
+                    "Methodologies"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
