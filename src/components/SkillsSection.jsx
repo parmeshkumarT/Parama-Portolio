@@ -14,9 +14,8 @@ const skills = [
     { name: "React.js", level: 80, category: "Languages and Frameworks" },
     { name: "SUPABASE", level: 80, category: "Languages and Frameworks" },
     { name: "SQL", level: 80, category: "Languages and Frameworks" },
-
-
     { name: "PostgreSQL(SUPABASE)", level: 90, category: "Languages and Frameworks" },
+    
     { name: "Git/GitHub", level: 90, category: "Databases & Tools" },
     { name: "JIRA TOOL(Basic)", level: 90, category: "Databases & Tools" },
 
@@ -24,7 +23,7 @@ const skills = [
 
 
 ]
-const categories = ["all", "Domain Expertise", "Languages and Frameworks", "Methodologies"];
+const categories = ["all", "Domain Expertise","Languages and Frameworks","Databases & Tools","Methodologies"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
