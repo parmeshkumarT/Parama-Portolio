@@ -11,9 +11,9 @@ export const AboutMe = () => {
                     <div className="space-y-6 ">
                         <h3 className="text-2xl font-semibold">passionate web developer and keen interest on Database Management Systems concepts</h3>
                         <p className="text-muted-foreground">
-                            I'm currently pursuing my B.E. in Computer Science at CEG, Anna University.
-                            I recently completed the Colt Steele Web Developer Bootcamp, gaining hands-on experience in HTML, CSS, JavaScript, Node.js, and the MERN stack. 
-                            I enjoy debugging backend systems, refining UI/UX designs, and exploring FinTech solutions.
+                            I'm a Computer Science student at CEG, Anna University, passionate about building secure and scalable software for the banking and financial services industry.
+                            With hands-on experience in banking concepts, payment systems, SWIFT messaging, and enterprise application development, I combine my knowledge of modern full-stack technologies with a strong interest in financial technology. 
+                            My goal is to develop reliable, high-performance solutions that simplify complex banking operations and deliver secure digital experiences.
                         </p>
                         <p className="text-muted-foreground">
                             In Database Management Systems, I excel in the concepts of
