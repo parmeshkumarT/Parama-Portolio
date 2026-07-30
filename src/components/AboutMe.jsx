@@ -38,8 +38,8 @@ export const AboutMe = () => {
                                     <Code className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">web development</h4>
-                                    <p className="text-muted-foreground">creating responsive and visualy appealing websites</p>
+                                    <h4 className="font-semibold text-lg">Domain Expertise</h4>
+                                    <p className="text-muted-foreground">banking concepts,messaging standards,cards and payments</p>
                                 </div>
                             </div>
                         </div>
@@ -49,8 +49,9 @@ export const AboutMe = () => {
                                     <Computer className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">DBMS</h4>
-                                    <p className="text-muted-foreground">excelling in normalization and transaction management</p>
+                                    <h4 className="font-semibold text-lg">Internship</h4>
+                                    <p className="text-muted-foreground">Technology intern in Virtusa.Inc for two months 
+                                                                        gained knowledge on Agile development and Banking Domain</p>
                                 </div>
                             </div>
                         </div>
@@ -61,10 +62,10 @@ export const AboutMe = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Education</h4>
-                                    <h2 className="font-semibold">HSE</h2>
-                                    <p className="text-muted-foreground">SIVAKASI JAYCEES MATRICULATION SCHOOL</p>
                                     <h2 className="font-semibold">UG</h2>
                                     <p className="text-muted-foreground">COLLEGE OF ENGINEERING GUINDY</p>
+                                    <h2 className="font-semibold">HSE</h2>
+                                    <p className="text-muted-foreground">SIVAKASI JAYCEES MATRICULATION SCHOOL</p>
                                 </div>
                             </div>
                         </div>
